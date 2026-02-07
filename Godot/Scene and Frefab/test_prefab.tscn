@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cjk467yse0ld2"]
+
+[ext_resource type="PackedScene" uid="uid://oopmclinsene" path="res://FBX format/hedge-large.fbx" id="1_n7t7t"]
+[ext_resource type="PackedScene" uid="uid://odwwhscwntjx" path="res://FBX format/hedge-large-gate.fbx" id="2_3e7uc"]
+[ext_resource type="PackedScene" uid="uid://cvdj5fu4e0rr8" path="res://FBX format/lantern.fbx" id="3_h4vyv"]
+
+[node name="TestPrefab" type="Node3D" unique_id=1660912709]
+
+[node name="hedge-large" parent="." unique_id=1326296369 instance=ExtResource("1_n7t7t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7664994, 1.1920929e-07, 1.4698458)
+
+[node name="hedge-large2" parent="." unique_id=190412793 instance=ExtResource("1_n7t7t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7664994, 1.1920929e-07, -1.273242)
+
+[node name="hedge-large-gate" parent="." unique_id=1202640607 instance=ExtResource("2_3e7uc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7855575, 0, 0.06732061)
+
+[node name="lantern" parent="." unique_id=451458758 instance=ExtResource("3_h4vyv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.405132, 0, 0.056604713)
