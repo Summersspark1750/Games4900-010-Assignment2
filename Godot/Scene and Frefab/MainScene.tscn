@@ -12,6 +12,8 @@
 [ext_resource type="PackedScene" uid="uid://c41llpt34w5ky" path="res://FBX format/tree-high-crooked.fbx" id="10_ak0eg"]
 [ext_resource type="PackedScene" uid="uid://dayssy7wj63cq" path="res://FBX format/tree-crooked.fbx" id="11_6npx8"]
 [ext_resource type="PackedScene" uid="uid://cjk467yse0ld2" path="res://Scene and Frefab/test_prefab.tscn" id="12_ak0eg"]
+[ext_resource type="Script" uid="uid://bewuo75kdmrtl" path="res://Scripts/Caller.gd" id="13_slbvh"]
+[ext_resource type="Script" uid="uid://b1t4tihdegtqs" path="res://Scripts/Receiver.gd" id="14_uutqh"]
 
 [node name="Node3D" type="Node3D" unique_id=184490971]
 
@@ -80,3 +82,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.11362934, 0, -1.729691)
 
 [node name="TestPrefab" parent="." unique_id=1660912709 instance=ExtResource("12_ak0eg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 5)
+
+[node name="Caller" type="Node3D" parent="." unique_id=221430548 node_paths=PackedStringArray("receiver")]
+script = ExtResource("13_slbvh")
+receiver = NodePath("../Receiver")
+
+[node name="Receiver" type="Node3D" parent="." unique_id=1429704411]
+script = ExtResource("14_uutqh")
