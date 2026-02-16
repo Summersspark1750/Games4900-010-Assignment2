@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1771177352
+::res://::1771205135
 icon.svg::CompressedTexture2D::1301202854118928381::1771177159::1771177159::1::::<><><>0<>0<>e4942c7518e027219b1cac45985cf4f7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://FBX format/::1771177159
 balcony-wall-fence.fbx::PackedScene::6936601929815760453::1771177159::1771177159::1::::<><><>0<>0<>6ca53f31b3f312d8f2f14be642b4d837<>res://.godot/imported/balcony-wall-fence.fbx-8ecfb43da8eaf16694cbcb6e1403b14b.scn::uid://b2ne1d5xw2lqv::::res://FBX format/Textures/colormap.png
@@ -171,6 +171,9 @@ wheel.fbx::PackedScene::2035167294810213134::1771177159::1771177159::1::::<><><>
 windmill.fbx::PackedScene::8168569246060170858::1771177159::1771177159::1::::<><><>0<>0<>277102cfd53e7100722e2d758f9d58f6<>res://.godot/imported/windmill.fbx-d6fe32f48bbe3c17c76c68e23e10139c.scn::uid://b2ne1d5xw2lqv::::res://FBX format/Textures/colormap.png
 ::res://FBX format/Textures/::1771177159
 colormap.png::CompressedTexture2D::4308645876325017209::1771177159::1771177159::1::::<><><>0<>0<>96bac5fb42ff853fbc6ece1a3348afff<>res://.godot/imported/colormap.png-49cc1d727c444db4f3127d553dc4f489.s3tc.ctex::
-::res://Scene and Frefab/::1771177159
-MainScene.tscn::PackedScene::2515482765403960925::1771177159::0::1::::<><><>0<>0<><>::uid://c53e25knv4c0t::::res://FBX format/balcony-wall-fence.fbx<>uid://0myj1rxm8mcu::::res://FBX format/cart-high.fbx<>uid://cfdvhek02fvd2::::res://FBX format/rock-small.fbx<>uid://i2apeo8y12at::::res://FBX format/rock-wide.fbx<>uid://dqx3rnkhh7hlj::::res://FBX format/rock-large.fbx<>uid://c34hn7qudkuec::::res://FBX format/roof-gable-end.fbx<>uid://b2np4bfnd8q68::::res://FBX format/roof-high-gable.fbx<>uid://dedo3tbbh3mrp::::res://FBX format/roof-high-gable-top.fbx<>uid://datxf5ggve7eo::::res://FBX format/stall-red.fbx<>uid://c41llpt34w5ky::::res://FBX format/tree-high-crooked.fbx<>uid://dayssy7wj63cq::::res://FBX format/tree-crooked.fbx<>uid://cjk467yse0ld2::::res://Scene and Frefab/test_prefab.tscn
-test_prefab.tscn::PackedScene::5427002608717059573::1771177159::0::1::::<><><>0<>0<><>::uid://oopmclinsene::::res://FBX format/hedge-large.fbx<>uid://odwwhscwntjx::::res://FBX format/hedge-large-gate.fbx<>uid://cvdj5fu4e0rr8::::res://FBX format/lantern.fbx
+::res://Scene and Frefab/::1771178944
+MainScene.tscn::PackedScene::2515482765403960925::1771178944::0::1::::<><><>0<>0<><>::uid://c53e25knv4c0t::::res://FBX format/balcony-wall-fence.fbx<>uid://0myj1rxm8mcu::::res://FBX format/cart-high.fbx<>uid://cfdvhek02fvd2::::res://FBX format/rock-small.fbx<>uid://i2apeo8y12at::::res://FBX format/rock-wide.fbx<>uid://dqx3rnkhh7hlj::::res://FBX format/rock-large.fbx<>uid://c34hn7qudkuec::::res://FBX format/roof-gable-end.fbx<>uid://b2np4bfnd8q68::::res://FBX format/roof-high-gable.fbx<>uid://dedo3tbbh3mrp::::res://FBX format/roof-high-gable-top.fbx<>uid://datxf5ggve7eo::::res://FBX format/stall-red.fbx<>uid://c41llpt34w5ky::::res://FBX format/tree-high-crooked.fbx<>uid://dayssy7wj63cq::::res://FBX format/tree-crooked.fbx<>uid://cjk467yse0ld2::::res://Scene and Frefab/test_prefab.tscn<>uid://bewuo75kdmrtl::::res://Scripts/Caller.gd<>uid://b1t4tihdegtqs::::res://Scripts/Receiver.gd
+test_prefab.tscn::PackedScene::5427002608717059573::1771178713::0::1::::<><><>0<>0<><>::uid://oopmclinsene::::res://FBX format/hedge-large.fbx<>uid://odwwhscwntjx::::res://FBX format/hedge-large-gate.fbx<>uid://cvdj5fu4e0rr8::::res://FBX format/lantern.fbx
+::res://Scripts/::1771178648
+Caller.gd::GDScript::2713833437354735781::1771178643::0::1::::<>Node<><>0<>0<><>::
+Receiver.gd::GDScript::4252348949625841294::1771178648::0::1::::Receiver<>Node<><>0<>0<><>::
