@@ -10,9 +10,14 @@ config_version=5
 
 [application]
 
-config/name="Assign2Kenny"
+config/name="Assignment3"
+run/main_scene="uid://bp3tlungklbel"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[global_group]
+
+Proto_character=""
 
 [physics]
 
