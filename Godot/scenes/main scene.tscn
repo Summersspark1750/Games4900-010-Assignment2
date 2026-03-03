@@ -26,10 +26,16 @@ mesh = SubResource("PlaneMesh_ce2h5")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.241166, 0, 3.3312912)
 
 [node name="Coins2" parent="." unique_id=1465384247 instance=ExtResource("3_k0ot2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6042666, 0.94408894, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.604166, 0.94408894, -3.565473)
+
+[node name="Coins5" parent="." unique_id=1912229673 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6148663, 0.87901473, -3.8934696)
 
 [node name="Coins3" parent="." unique_id=1874962799 instance=ExtResource("3_k0ot2")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.979041, 0.94408894, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.979041, 0.94408894, 2.6136544)
 
-[node name="Coins" parent="." unique_id=1912229673 instance=ExtResource("3_k0ot2")]
+[node name="Coins4" parent="." unique_id=1855951606 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.428851, 2.6028795, 0)
+
+[node name="Coins" parent="." unique_id=1995060927 instance=ExtResource("3_k0ot2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.92552805, 0)
