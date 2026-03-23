@@ -15,3 +15,5 @@ func _on_body_entered(body: Node) -> void:
 	get_parent().queue_free()
 	# Optional: remove the coin so it can’t be collected twice.
 	# queue_free()
+	
+	
