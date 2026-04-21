@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "Input_attack",
+    "maps": [
+        {
+            "name": "PlayerInputActions",
+            "id": "4844f314-c11a-4766-a674-e7743a672ec0",
+            "actions": [
+                {
+                    "name": "attack",
+                    "type": "Button",
+                    "id": "797c13fc-7bba-460d-a747-294f469257c4",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "145240e1-214a-45a2-b6ff-531b07f3b178",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

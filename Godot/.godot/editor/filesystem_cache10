@@ -1,0 +1,12 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1774275951
+icon.svg::CompressedTexture2D::6678730345939657210::1774275761::1774275865::1::::<><><>0<>0<>cbf2aaa6e377b0ef4a1481ab6f3ca7fa<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://addons/::1774275865
+::res://addons/proto_controller/::1774275865
+proto_controller.gd::GDScript::1473661594221074911::1774275865::0::1::::<>CharacterBody3D<><>0<>0<><>::
+proto_controller.tscn::PackedScene::8517614134027022678::1774275865::0::1::::<><><>0<>0<><>::uid://u838x1ik8rox::::res://addons/proto_controller/proto_controller.gd
+::res://scenes/::1774275865
+coins.tscn::PackedScene::7233024690142242984::1774275865::0::1::::<><><>0<>0<><>::uid://da77vmowc3tpq::::res://scripts/coins.gd
+main scene.tscn::PackedScene::3498230252808647055::1774275865::0::1::::<><><>0<>0<><>::uid://dtl84itetrwta::::res://addons/proto_controller/proto_controller.tscn<>uid://dbby4ibb8b17i::::res://scenes/coins.tscn
+::res://scripts/::1774275865
+coins.gd::GDScript::7227303237560584218::1774275865::0::1::::<>Area3D<><>0<>0<><>::

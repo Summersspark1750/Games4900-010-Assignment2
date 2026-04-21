@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://bp3tlungklbel"]
+
+[ext_resource type="PackedScene" uid="uid://dtl84itetrwta" path="res://addons/proto_controller/proto_controller.tscn" id="1_6r1qt"]
+[ext_resource type="Script" uid="uid://bbcdf8dj748cd" path="res://scripts/attack.gd" id="2_k0ot2"]
+[ext_resource type="PackedScene" uid="uid://dbby4ibb8b17i" path="res://scenes/coins.tscn" id="3_k0ot2"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6r1qt"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_ce2h5"]
+
+[node name="Node3D" type="Node3D" unique_id=1827752191]
+
+[node name="Floor" type="Node3D" parent="." unique_id=630000670]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor" unique_id=463183048]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D" unique_id=162490388]
+transform = Transform3D(23.592546, 0, 0, 0, 0.11576292, 0, 0, 0, 18.59426, 0, 0, 0)
+shape = SubResource("BoxShape3D_6r1qt")
+debug_color = Color(0.72292036, 0.44673496, 0.4680847, 0.41960785)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor" unique_id=600480420]
+transform = Transform3D(11.710008, 0, 0, 0, 1.0000005, 0, 0, 0, 9.283164, 0, 0, 0)
+mesh = SubResource("PlaneMesh_ce2h5")
+
+[node name="ProtoController" parent="." unique_id=544297544 instance=ExtResource("1_6r1qt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.241166, 0, 3.3312912)
+
+[node name="Attack" type="Node3D" parent="ProtoController" unique_id=810808347]
+script = ExtResource("2_k0ot2")
+
+[node name="Coins2" parent="." unique_id=1465384247 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.604166, 0.94408894, -3.565473)
+
+[node name="Coins5" parent="." unique_id=1912229673 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6148663, 0.87901473, -3.8934696)
+
+[node name="Coins3" parent="." unique_id=1874962799 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.979041, 0.94408894, 2.6136544)
+
+[node name="Coins4" parent="." unique_id=1855951606 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.428851, 2.6028795, 0)
+
+[node name="Coins" parent="." unique_id=1995060927 instance=ExtResource("3_k0ot2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.92552805, 0)
